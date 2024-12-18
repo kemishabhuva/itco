@@ -1,0 +1,771 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scroll_to_top{
+    height: 50px;
+    width: 50px;
+    background-color: #497165;
+    color: #F2F5EC;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 45px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+
+youtube .w-100 {
+    width: 100%;
+}
+
+.w-1140 {
+    width: 1140px;
+}
+
+/* header start */
+
+#ovel-1 :hover {
+    fill: #16A571;
+    transition: 0.5s;
+}
+
+.head-mail:hover {
+    color: #16A571;
+    transition: 0.5s;
+}
+
+.head-number:hover {
+    color: #16A571;
+    transition: 0.5s;
+}
+
+.logo {
+    width: 50px;
+    height: 40px;
+
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #236a6a;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ul li:hover a {
+    color: #164343;
+    transition: 1s;
+    fill: #164343;
+}
+
+
+ul li a {
+    display: flex;
+}
+
+ul ul li a {
+    width: 150px;
+    height: auto;
+    background-color: white;
+    padding: 5px;
+}
+
+ul ul {
+    display: none;
+    padding: 0rem;
+    margin-top: 25px;
+}
+
+ul li:hover ul {
+    display: block;
+    transition: 2s;
+}
+
+.head-btn {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: #16A571;
+    border: none;
+}
+
+.head-btn:hover {
+    background-color: transparent;
+    border: 3px solid #16A571;
+    color: #16A571;
+    transition: 0.5s;
+}
+
+/* header start */
+/* Hero page start */
+.hero-img-2 {
+    width: 550px;
+    height: 500px;
+    background-color: #95c2c2;
+    background-color: transparent;
+    border: 1px solid #95c2c2;
+    border-radius: 0px 60px;
+    position: relative;
+    margin-left: 35px;
+}
+
+.hero-responsive {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    animation: hero-ani 7s linear infinite;
+}
+
+@keyframes hero-ani {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -70px;
+    }
+
+    100% {
+        top: 0;
+    }
+
+}
+
+.hero-btn {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: #16A571;
+    border: none;
+}
+
+.hero-btn:hover {
+    background-color: transparent;
+    border: 3px solid #16A571;
+    color: #16A571;
+    transition: 0.5s;
+}
+
+.hero-youtube {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 3px solid #16A571;
+    border-radius: 10px;
+}
+
+.hero-youtube:hover {
+    background-color: #16A571;
+    transition: 0.5s;
+}
+
+.youtube :hover {
+    fill: white;
+    transition: 0.5s;
+}
+
+.hero-profile {
+    width: 70%;
+    height: 100px;
+    background-color: transparent;
+    border: 0.5px solid #16A571;
+    border-radius: 50px;
+    margin-top: 80px;
+}
+
+.hero-profile-responsive :hover {
+    width: 110%;
+}
+
+/* Hero page End */
+/* Aboout page start */
+.about {
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+
+@keyframes about-img-2 {
+    0% {
+        right: -380px;
+    }
+
+    100% {
+        right: -350px;
+    }
+}
+
+@keyframes about-img-1 {
+    0% {
+        left: 70px;
+    }
+
+    100% {
+        left: 110px;
+    }
+}
+
+.right {
+    width: 20px;
+    height: 20px;
+    background-color: #16A571;
+    border: none;
+}
+
+.about-btn {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: #16A571;
+    border: none;
+}
+
+.about-btn:hover {
+    background-color: transparent;
+    border: 3px solid #16A571;
+    color: #16A571;
+    transition: 0.5s;
+}
+
+/* About page end */
+/* Services page start */
+.service {
+    width: 100%;
+    height: auto;
+    background-color: #E3F9F5;
+}
+
+.service-btn {
+    width: auto;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: #16A571;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.service-btn:hover {
+    background-color: transparent;
+    border: 3px solid #16A571;
+    color: #16A571;
+    transition: 0.5s;
+}
+
+.service-round-1 {
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border: 1px solid #16A571;
+    border-radius: 50%;
+    justify-content: space-between;
+}
+
+.service-round-1 :hover.service-round-resposive {
+    /* background-color: #16A571; */
+    fill: white;
+}
+
+.service-software:hover {
+    fill: #16A571;
+}
+
+.service-software:hover .service-round-1 {
+    background-color: #164343;
+    fill: white;
+}
+
+/* Services page end */
+/* Subscribe page start */
+.sub-bg {
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    background-image: url(https://itco.netlify.app/assets/images/newsletter/newsletter01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-round {
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    background-color: #16A571;
+}
+
+.sub-round-animation {
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    animation: sub-ani 1s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes sub-ani {
+    0% {
+        width: 85px;
+        height: 85px;
+        border-radius: 50px;
+        background-color: #ffffff;
+        opacity: 100%;
+    }
+
+    50% {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: #e3e3e3e6;
+        opacity: 50%;
+    }
+
+    100% {
+        width: 115px;
+        height: 115px;
+        border-radius: 100px;
+        background-color: #fafafa;
+        opacity: 10%;
+    }
+}
+
+.sub-submit {
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #16A571;
+    color: white;
+    transition: 0.5s;
+}
+
+.sub-submit:hover {
+    background-color: transparent;
+    border: 1px solid #16A571;
+    color: #16A571;
+}
+
+/* Subscribe page end */
+
+/* Project page start */
+.project-img-1 {
+    width: 100%;
+    height: 400px;
+    background: black url(https://itco.netlify.app/assets/images/project/project2.png)no-repeat 0 0;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.project-img-2 {
+    width: 100%;
+    height: 400px;
+    background: black url(https://itco.netlify.app/assets/images/project/project3.png)no-repeat 0 0;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.project-img-4 {
+    width: 100%;
+    height: 400px;
+    background: black url(https://itco.netlify.app/assets/images/project/project1.png)no-repeat 0 0;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.project-managment {
+    width: 90%;
+    height: 85px;
+    background-color: white;
+    border-radius: 10px;
+    border-left: 9px solid #16A571;
+    transition: 2s;
+    display: none;
+
+}
+
+.project-img-1:hover {
+
+    transform: scale(0.9);
+}
+
+.project-img-2:hover {
+
+    transform: scale(0.9);
+}
+
+.project-img-4:hover {
+
+    transform: scale(0.9);
+}
+
+
+.project-arow {
+    width: 65px;
+    height: 65px;
+    background-color: #81ca98;
+    border-radius: 10px;
+}
+
+.project-arow:hover {
+    background-color: #16A571;
+    fill: white;
+}
+
+.project-img-1:hover .project-managment {
+    display: block;
+}
+
+.project-img-2:hover .project-managment {
+    display: block;
+}
+
+.project-img-4:hover .project-managment {
+    display: block;
+}
+
+.owl-dots {
+    display: none;
+}
+
+
+/* Project page end */
+
+/* Business process page start */
+.business-process {
+    width: 100%;
+    height: auto;
+    background-color: #e3f9f5;
+}
+
+.bus-sco-80 {
+    width: 100%;
+    height: 10px;
+    background-color: #A1CEBE;
+    border-radius: 50px;
+}
+
+.score-80 {
+    width: 80%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #16A571;
+    animation: ani-progress-1 2s linear;
+}
+
+.score-75 {
+    width: 75%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #16A571;
+    animation: ani-progress-2 2s linear;
+}
+
+.score-90 {
+    width: 90%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #16A571;
+    animation: ani-progress-3 2s linear;
+}
+
+@keyframes ani-progress-1 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes ani-progress-2 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes ani-progress-3 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.pr-box {
+    width: 45px;
+    height: 32px;
+    background-color: #164343;
+    border-radius: 3px;
+
+}
+
+.ani-pr-box-1 {
+    display: flex;
+    margin-left: 77%;
+    animation: ani-pr-1 2s linear;
+
+}
+
+.ani-pr-box-2 {
+    display: flex;
+    margin-left: 72%;
+    animation: ani-pr-2 2s linear;
+
+}
+
+.ani-pr-box-3 {
+    display: flex;
+    margin-left: 87%;
+    animation: ani-pr-3 2.2s linear;
+
+}
+
+@keyframes ani-pr-1 {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: 77%;
+    }
+}
+
+@keyframes ani-pr-2 {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: 72%;
+    }
+}
+
+@keyframes ani-pr-3 {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: 87%;
+    }
+}
+
+.progress {
+    width: 100%;
+    height: 250px;
+    background-color: #164343;
+    border-radius: 10px;
+    margin-top: -125px;
+}
+
+.progress-line {
+    width: 1px;
+    height: 150px;
+    background-color: white;
+    opacity: 20%;
+}
+
+/* Business process page end */
+
+/* pricing page start */
+
+.basic-plan {
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px #e3ebe8;
+    border-radius: 10px;
+}
+
+.basic-popular {
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px #e3ebe8;
+    border-radius: 10px;
+}
+
+.pricing-btn {
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: #16A571;
+    transition: 1s;
+}
+
+.pricing-btn:hover {
+    background-color: #16A571;
+    color: white;
+}
+
+/* pricing page end */
+/* brand page start */
+.brand {
+    width: 100%;
+    height: 500px;
+    background-color: #164343;
+}
+
+.clint {
+    width: 100%;
+    height: auto;
+    background-color: #e3ebe8;
+    border-radius: 10px;
+}
+
+.clients-info {
+    width: 100%;
+    height: 100px;
+    background-color: #16A571;
+    border-radius: 0 0 10px 10px;
+}
+
+/* brand page end */
+/* blog page start */
+:hover.img-box img {
+    transform: scale(1.1);
+}
+
+.img-box img {
+    transition: all .3s linear;
+    border-radius: 10px;
+}
+
+:hover.blog-img-1 img {
+    transform: scale(1.1);
+}
+
+:hover.blog-img-2 img {
+    transform: scale(1.1);
+}
+
+:hover.blog-img-3 img {
+    transform: scale(1.1);
+}
+
+.blog-img-1 img {
+    width: auto;
+    transition: all .3s linear;
+    border-radius: 10px;
+}
+
+.blog-img-2 img {
+    width: auto;
+    transition: all .3s linear;
+    border-radius: 10px;
+}
+
+.blog-img-3 img {
+    width: auto;
+    transition: all .3s linear;
+    border-radius: 10px;
+}
+
+:hover.blog-hover {
+    color: #16A571;
+    transition: 1s;
+}
+
+.blog-hover-1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+:hover.blog-hover-1 {
+    color: #16A571;
+    transition: 1s;
+}
+
+.blog-hov:hover .blog-arrow {
+    margin-left: 5px;
+    transition: 1s;
+}
+
+.blog-line {
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    opacity: 20%;
+}
+
+/* blog page end */
+/* Footer page start */
+.footer-round {
+    width: 47px;
+    height: 47px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+:hover.footer-round {
+    background-color: #16A571;
+    border: none;
+    transition: 1s;
+}
+
+.footer-box-2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+:hover.footer-box-2 {
+    color: #16A571;
+    transition: 1s;
+}
+
+:hover.footer-img{
+   transform: scale(1.1);
+   transition: all .3s linear;
+}
+
+.footer-hover-1{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    opacity:  30%;
+}
+
+/* Footer page end */
